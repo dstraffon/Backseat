@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1860" viewBox="0 0 1800 1860">
+  <defs>
+    <linearGradient id="board" x2="0" y2="1"><stop stop-color="#171023"/><stop offset="1" stop-color="#090711"/></linearGradient>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#090714"/><stop offset=".31" stop-color="#29102f"/><stop offset=".54" stop-color="#8a286f"/><stop offset=".59" stop-color="#ff786f"/><stop offset=".6" stop-color="#2a102f"/><stop offset="1" stop-color="#080610"/></linearGradient>
+    <linearGradient id="sun" x2="0" y2="1"><stop stop-color="#fff078"/><stop offset=".55" stop-color="#ffbd70"/><stop offset="1" stop-color="#ff6f92"/></linearGradient>
+    <linearGradient id="logo" x2="0" y2="1"><stop stop-color="#fff6d6"/><stop offset=".53" stop-color="#ffb36b"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#35112e"/><stop offset="1" stop-color="#080610"/></linearGradient>
+    <linearGradient id="button" x2="0" y2="1"><stop stop-color="#ffbb68"/><stop offset="1" stop-color="#ff7a8a"/></linearGradient>
+    <g id="scene">
+      <rect width="390" height="844" fill="url(#sky)"/>
+      <g fill="#fff4ee" opacity=".85">
+        <circle cx="31" cy="33" r="1.4"/><circle cx="70" cy="67" r="1"/><circle cx="125" cy="22" r="1.2"/><circle cx="163" cy="88" r="1"/><circle cx="212" cy="37" r="1.4"/><circle cx="263" cy="69" r="1"/><circle cx="324" cy="31" r="1.1"/><circle cx="362" cy="92" r="1.4"/>
+        <circle cx="20" cy="130" r="1"/><circle cx="91" cy="117" r="1.2"/><circle cx="151" cy="145" r="1"/><circle cx="245" cy="122" r="1.2"/><circle cx="298" cy="151" r="1"/><circle cx="354" cy="126" r="1.1"/>
+        <circle cx="51" cy="190" r="1"/><circle cx="112" cy="174" r="1"/><circle cx="286" cy="197" r="1.2"/><circle cx="370" cy="183" r="1"/>
+      </g>
+      <circle cx="195" cy="386" r="79" fill="url(#sun)"/>
+      <g opacity=".35" stroke="#ff8b82" stroke-width="5">
+        <path d="M119 395h152M124 411h142M135 427h120"/>
+      </g>
+      <path d="M0 467 Q35 451 70 467 T140 466 T210 470 T280 463 T350 467 T420 461 V520 H0Z" fill="#4a1a46"/>
+      <path d="M0 491 Q40 474 82 492 T163 489 T244 496 T326 488 T408 494 V526 H0Z" fill="#170b24"/>
+      <rect y="498" width="390" height="346" fill="url(#ground)"/>
+      <g fill="none" stroke="#ff3d9d" stroke-width="1" opacity=".72">
+        <path d="M0 506H390"/><path d="M0 517H390"/><path d="M0 532H390"/><path d="M0 553H390"/><path d="M0 581H390"/><path d="M0 620H390"/><path d="M0 674H390"/><path d="M0 748H390"/><path d="M0 830H390"/>
+        <path d="M195 498L-25 844"/><path d="M195 498L35 844"/><path d="M195 498L85 844"/><path d="M195 498L125 844"/><path d="M195 498L158 844"/><path d="M195 498L178 844"/><path d="M195 498L212 844"/><path d="M195 498L232 844"/><path d="M195 498L265 844"/><path d="M195 498L305 844"/><path d="M195 498L355 844"/><path d="M195 498L415 844"/>
+      </g>
+      <path d="M170 498H220L350 844H40Z" fill="#090711" opacity=".92"/>
+      <path d="M170 498L40 844M220 498L350 844" fill="none" stroke="#ff906c" stroke-width="2.5" opacity=".86"/>
+      <path d="M195 515V535M195 553V577M195 602V632M195 668V709M195 756V812" fill="none" stroke="#ffd56b" stroke-width="3"/>
+    </g>
+    <g id="back">
+      <rect x="16" y="14" width="44" height="44" rx="14" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".18"/>
+      <path d="M40 25L30 36L40 47" fill="none" stroke="#fff4ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="icon-question" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="20" r="10"/><path d="M17 17a3 3 0 1 1 4 2.8c-.7.3-1 .8-1 1.5M20 25v.1"/></g>
+    <g id="icon-bulb" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 9a8 8 0 0 0-4.7 14.5c.5.4.7 1 .7 1.5h8c0-.6.2-1.1.7-1.5A8 8 0 0 0 20 9zM17 29h6M18 32h4"/></g>
+    <g id="icon-grid" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="9" width="9" height="9" rx="2"/><rect x="22" y="9" width="9" height="9" rx="2"/><rect x="9" y="22" width="9" height="9" rx="2"/><rect x="22" y="22" width="9" height="9" rx="2" fill="currentColor"/></g>
+    <g id="icon-calendar" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="11" width="22" height="21" rx="3"/><path d="M9 17h22M15 8v6M25 8v6"/></g>
+  </defs>
+  <rect width="1800" height="1860" fill="url(#board)"/>
+  <text x="48" y="31" fill="#ffc7a8" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">01 / MAIN MENU</text>
+  <text x="486" y="31" fill="#ffb86b" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">02 / RIDDLES</text>
+  <text x="924" y="31" fill="#ff5fa2" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">03 / TRIVIA</text>
+  <text x="1362" y="31" fill="#7cf0ff" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">04 / VISUAL PUZZLES</text>
+  <text x="267" y="944" fill="#b8ff6b" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">05 / ROAD BINGO</text>
+  <text x="705" y="944" fill="#c69bff" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">06 / WOULD YOU RATHER</text>
+  <text x="1143" y="944" fill="#ffd84d" font-family="DM Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">07 / DAILY GAMES</text>
+
+  <g id="main-menu" transform="translate(48 48)">
+    <use xlink:href="#scene"/>
+    <text x="20" y="58" fill="#ffc7a8" font-family="DM Sans, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">ROAD TRIP COMPANION</text>
+    <text x="18" y="112" fill="url(#logo)" font-family="Bricolage Grotesque, sans-serif" font-size="56" font-weight="800" letter-spacing="-2.4">Backseat</text>
+    <text x="20" y="148" fill="#fff4ee" fill-opacity=".84" font-family="DM Sans, sans-serif" font-size="13.5">Games for the long way round. One person holds</text>
+    <text x="20" y="167" fill="#fff4ee" fill-opacity=".84" font-family="DM Sans, sans-serif" font-size="13.5">the phone, everyone plays.</text>
+    <g font-family="Bricolage Grotesque, sans-serif" fill="#fff4ee">
+      <g transform="translate(16 195)"><rect width="174" height="150" rx="20" fill="#180c2a" fill-opacity=".64" stroke="#ffffff" stroke-opacity=".18"/><rect x="14" y="14" width="38" height="38" rx="11" fill="#ffb86b" fill-opacity=".18"/><g transform="translate(13 13)" color="#ffb86b"><use xlink:href="#icon-question"/></g><text x="14" y="103" font-size="17" font-weight="700">Riddles</text><text x="14" y="123" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">Read one out, first to</text><text x="14" y="137" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">crack it wins</text></g>
+      <g transform="translate(200 195)"><rect width="174" height="150" rx="20" fill="#180c2a" fill-opacity=".64" stroke="#ffffff" stroke-opacity=".18"/><rect x="14" y="14" width="38" height="38" rx="11" fill="#ff5fa2" fill-opacity=".18"/><g transform="translate(13 13)" color="#ff5fa2"><use xlink:href="#icon-bulb"/></g><text x="14" y="103" font-size="17" font-weight="700">Trivia</text><text x="14" y="123" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">Six categories, ten</text><text x="14" y="137" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">questions a round</text></g>
+      <g transform="translate(16 355)"><rect width="174" height="150" rx="20" fill="#180c2a" fill-opacity=".64" stroke="#ffffff" stroke-opacity=".18"/><rect x="14" y="14" width="38" height="38" rx="11" fill="#7cf0ff" fill-opacity=".18"/><g transform="translate(13 13)" color="#7cf0ff"><use xlink:href="#icon-grid"/></g><text x="14" y="103" font-size="15.5" font-weight="700">Visual puzzles</text><text x="14" y="123" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">Emoji rebus &amp; spot</text><text x="14" y="137" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">the shade</text></g>
+      <g transform="translate(200 355)"><rect width="174" height="150" rx="20" fill="#180c2a" fill-opacity=".64" stroke="#ffffff" stroke-opacity=".18"/><rect x="14" y="14" width="38" height="38" rx="11" fill="#b8ff6b" fill-opacity=".18"/><g transform="translate(13 13)" color="#b8ff6b"><use xlink:href="#icon-grid"/></g><text x="14" y="103" font-size="17" font-weight="700">Road bingo</text><text x="14" y="123" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">Spot it out the</text><text x="14" y="137" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">window, tap it</text></g>
+      <g transform="translate(16 515)"><rect width="174" height="150" rx="20" fill="#180c2a" fill-opacity=".64" stroke="#ffffff" stroke-opacity=".18"/><rect x="14" y="14" width="38" height="38" rx="11" fill="#c69bff" fill-opacity=".18"/><text x="25" y="41" fill="#c69bff" font-size="25" font-weight="700">⑂</text><text x="14" y="103" font-size="15" font-weight="700">Would you rather</text><text x="14" y="123" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">Impossible choices,</text><text x="14" y="137" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">loud debates</text></g>
+      <g transform="translate(200 515)"><rect width="174" height="150" rx="20" fill="#180c2a" fill-opacity=".64" stroke="#ffffff" stroke-opacity=".18"/><rect x="14" y="14" width="38" height="38" rx="11" fill="#ffd84d" fill-opacity=".18"/><g transform="translate(13 13)" color="#ffd84d"><use xlink:href="#icon-calendar"/></g><text x="14" y="103" font-size="17" font-weight="700">Daily games</text><text x="14" y="123" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">Wordle, Connections</text><text x="14" y="137" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="10.5">&amp; friends</text></g>
+    </g>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+
+  <g id="riddles" transform="translate(486 48)">
+    <use xlink:href="#scene"/><rect width="390" height="844" fill="#080610" fill-opacity=".48"/>
+    <use xlink:href="#back"/><text x="76" y="42" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Riddles</text>
+    <rect x="16" y="104" width="358" height="310" rx="24" fill="#1c0e30" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".17"/>
+    <text x="40" y="145" fill="#ffb86b" font-family="DM Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">RIDDLE 1 OF 28</text>
+    <text x="40" y="204" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="24" font-weight="700"><tspan x="40">I have cities but no houses,</tspan><tspan x="40" dy="31">forests but no trees, and</tspan><tspan x="40" dy="31">water but no fish. What am I?</tspan></text>
+    <rect x="16" y="691" width="358" height="56" rx="18" fill="url(#button)"/>
+    <text x="195" y="726" text-anchor="middle" fill="#1a0b1f" font-family="DM Sans, sans-serif" font-size="15" font-weight="700">Reveal answer</text>
+    <rect x="16" y="757" width="358" height="56" rx="18" fill="#180c2a" fill-opacity=".7" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="195" y="792" text-anchor="middle" fill="#fff4ee" font-family="DM Sans, sans-serif" font-size="15" font-weight="700">Skip</text>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+
+  <g id="trivia-category-picker" transform="translate(924 48)">
+    <use xlink:href="#scene"/><rect width="390" height="844" fill="#080610" fill-opacity=".48"/>
+    <use xlink:href="#back"/><text x="76" y="42" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Trivia</text>
+    <text x="16" y="96" fill="#fff4ee" fill-opacity=".78" font-family="DM Sans, sans-serif" font-size="13"><tspan x="16">Pick a category. One person reads,</tspan><tspan x="16" dy="18">everyone shouts.</tspan></text>
+    <g font-family="DM Sans, sans-serif">
+      <g transform="translate(16 132)"><rect width="358" height="72" rx="18" fill="#3a143d" fill-opacity=".84" stroke="#ff5fa2" stroke-opacity=".48"/><circle cx="25" cy="36" r="6" fill="#ff5fa2"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">Mixed bag</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">A bit of everything</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+      <g transform="translate(16 212)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".15"/><circle cx="25" cy="36" r="6" fill="#7cf0ff"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">Geography</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">Maps, capitals &amp; wild places</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+      <g transform="translate(16 292)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".15"/><circle cx="25" cy="36" r="6" fill="#b8ff6b"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">Science &amp; Nature</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">Planets, animals &amp; the human body</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+      <g transform="translate(16 372)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".15"/><circle cx="25" cy="36" r="6" fill="#ff5fa2"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">Movies &amp; TV</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">Quotes, characters &amp; classics</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+      <g transform="translate(16 452)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".15"/><circle cx="25" cy="36" r="6" fill="#ffd84d"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">Music</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">Road songs, legends &amp; instruments</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+      <g transform="translate(16 532)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".15"/><circle cx="25" cy="36" r="6" fill="#ffb86b"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">History</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">Empires, inventors &amp; firsts</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+      <g transform="translate(16 612)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".15"/><circle cx="25" cy="36" r="6" fill="#c69bff"/><text x="48" y="31" fill="#fff4ee" font-size="15" font-weight="700">Food &amp; Drink</text><text x="48" y="51" fill="#fff4ee" fill-opacity=".65" font-size="11">Snack-stop knowledge</text><text x="336" y="42" text-anchor="end" fill="#fff4ee" fill-opacity=".58" font-size="11">10 Qs</text></g>
+    </g>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+
+  <g id="visual-puzzles-menu" transform="translate(1362 48)">
+    <use xlink:href="#scene"/><rect width="390" height="844" fill="#080610" fill-opacity=".48"/>
+    <use xlink:href="#back"/><text x="76" y="42" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Visual puzzles</text>
+    <text x="16" y="98" fill="#fff4ee" fill-opacity=".78" font-family="DM Sans, sans-serif" font-size="13"><tspan x="16">Hand the phone around. Loser picks</tspan><tspan x="16" dy="18">the next song.</tspan></text>
+    <g transform="translate(16 137)"><rect width="358" height="271" rx="22" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="18" y="18" width="322" height="154" rx="18" fill="#ffffff" fill-opacity=".055"/><text x="179" y="111" text-anchor="middle" font-family="sans-serif" font-size="40">🌧️ + 🎀</text><text x="18" y="211" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Emoji rebus</text><text x="18" y="237" fill="#fff4ee" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="12"><tspan x="18">Sound out the emoji to find the</tspan><tspan x="18" dy="17">word or movie</tspan></text></g>
+    <g transform="translate(16 424)"><rect width="358" height="271" rx="22" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="18" y="18" width="322" height="154" rx="18" fill="#ffffff" fill-opacity=".055"/>
+      <g transform="translate(119 45)"><rect width="30" height="30" rx="7" fill="#48b9d3"/><rect x="36" width="30" height="30" rx="7" fill="#48b9d3"/><rect x="72" width="30" height="30" rx="7" fill="#48b9d3"/><rect y="36" width="30" height="30" rx="7" fill="#48b9d3"/><rect x="36" y="36" width="30" height="30" rx="7" fill="#48b9d3"/><rect x="72" y="36" width="30" height="30" rx="7" fill="#48b9d3"/><rect y="72" width="30" height="30" rx="7" fill="#48b9d3"/><rect x="36" y="72" width="30" height="30" rx="7" fill="#48b9d3"/><rect x="72" y="72" width="30" height="30" rx="7" fill="#73e4f4"/></g>
+      <text x="18" y="211" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Spot the shade</text><text x="18" y="237" fill="#fff4ee" fill-opacity=".68" font-family="DM Sans, sans-serif" font-size="12"><tspan x="18">Find the odd tile out. It gets</tspan><tspan x="18" dy="17">sneaky fast.</tspan></text></g>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+
+  <g id="road-bingo" transform="translate(267 970)">
+    <use xlink:href="#scene"/><rect width="390" height="844" fill="#080610" fill-opacity=".48"/>
+    <use xlink:href="#back"/><text x="76" y="42" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Road bingo</text>
+    <text x="195" y="99" text-anchor="middle" fill="#fff4ee" fill-opacity=".62" font-family="DM Sans, sans-serif" font-size="12">Spot it out the window? Tap it. Five in a row wins.</text>
+    <g id="bingo-board" font-family="DM Sans, sans-serif" font-size="9.2" font-weight="500" text-anchor="middle" fill="#fff4ee">
+      <g transform="translate(16 128)">
+        <g fill="#180c2a" fill-opacity=".74" stroke="#ffffff" stroke-opacity=".16">
+          <rect width="66" height="66" rx="11"/><rect x="72" width="66" height="66" rx="11"/><rect x="144" width="66" height="66" rx="11"/><rect x="216" width="66" height="66" rx="11"/><rect x="288" width="66" height="66" rx="11"/>
+          <rect y="72" width="66" height="66" rx="11"/><rect x="72" y="72" width="66" height="66" rx="11"/><rect x="144" y="72" width="66" height="66" rx="11"/><rect x="216" y="72" width="66" height="66" rx="11"/><rect x="288" y="72" width="66" height="66" rx="11"/>
+          <rect y="144" width="66" height="66" rx="11"/><rect x="72" y="144" width="66" height="66" rx="11"/><rect x="144" y="144" width="66" height="66" rx="11"/><rect x="216" y="144" width="66" height="66" rx="11"/><rect x="288" y="144" width="66" height="66" rx="11"/>
+          <rect y="216" width="66" height="66" rx="11"/><rect x="72" y="216" width="66" height="66" rx="11"/><rect x="144" y="216" width="66" height="66" rx="11"/><rect x="216" y="216" width="66" height="66" rx="11"/><rect x="288" y="216" width="66" height="66" rx="11"/>
+          <rect y="288" width="66" height="66" rx="11"/><rect x="72" y="288" width="66" height="66" rx="11"/><rect x="144" y="288" width="66" height="66" rx="11"/><rect x="216" y="288" width="66" height="66" rx="11"/><rect x="288" y="288" width="66" height="66" rx="11"/>
+        </g>
+        <g><rect x="144" y="144" width="66" height="66" rx="11" fill="#b8ff6b" fill-opacity=".84" stroke="#b8ff6b"/></g>
+        <g>
+          <text x="33" y="30"><tspan x="33">Red</tspan><tspan x="33" dy="12">car</tspan></text><text x="105" y="30"><tspan x="105">Yellow</tspan><tspan x="105" dy="12">car</tspan></text><text x="177" y="30">Cow</text><text x="249" y="30">Horse</text><text x="321" y="25"><tspan x="321">Out-of-</tspan><tspan x="321" dy="12">state plate</tspan></text>
+          <text x="33" y="102">Motorcycle</text><text x="105" y="102">Bridge</text><text x="177" y="102"><tspan x="177">Water</tspan><tspan x="177" dy="12">tower</tspan></text><text x="249" y="102">Semi truck</text><text x="321" y="102">RV</text>
+          <text x="33" y="174">Police car</text><text x="105" y="174"><tspan x="105">Traffic</tspan><tspan x="105" dy="12">cone</tspan></text><text x="177" y="174" fill="#1a0b1f" font-weight="700"><tspan x="177">Free</tspan><tspan x="177" dy="12">space</tspan></text><text x="249" y="174"><tspan x="249">Lawyer</tspan><tspan x="249" dy="12">billboard</tspan></text><text x="321" y="174"><tspan x="321">Dog in a</tspan><tspan x="321" dy="12">car</tspan></text>
+          <text x="33" y="246">Train</text><text x="105" y="246">Tunnel</text><text x="177" y="246"><tspan x="177">Red</tspan><tspan x="177" dy="12">barn</tspan></text><text x="249" y="246"><tspan x="249">Wind</tspan><tspan x="249" dy="12">turbine</tspan></text><text x="321" y="246"><tspan x="321">Funny</tspan><tspan x="321" dy="12">bumper sticker</tspan></text>
+          <text x="33" y="318">Convertible</text><text x="105" y="318"><tspan x="105">Speed</tspan><tspan x="105" dy="12">limit 70</tspan></text><text x="177" y="318"><tspan x="177">Deer</tspan><tspan x="177" dy="12">crossing sign</tspan></text><text x="249" y="318">School bus</text><text x="321" y="318">Tractor</text>
+        </g>
+      </g>
+    </g>
+    <rect x="16" y="765" width="358" height="56" rx="18" fill="#180c2a" fill-opacity=".7" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="195" y="800" text-anchor="middle" fill="#fff4ee" font-family="DM Sans, sans-serif" font-size="15" font-weight="700">New card</text>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+
+  <g id="would-you-rather" transform="translate(705 970)">
+    <use xlink:href="#scene"/><rect width="390" height="844" fill="#080610" fill-opacity=".48"/>
+    <use xlink:href="#back"/><text x="76" y="42" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Would you rather</text>
+    <text x="195" y="108" text-anchor="middle" fill="#c69bff" font-family="DM Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">WOULD YOU RATHER…</text>
+    <rect x="16" y="132" width="358" height="170" rx="24" fill="#1c0e30" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".17"/>
+    <text x="42" y="204" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="24" font-weight="700"><tspan x="42">Only be able to</tspan><tspan x="42" dy="31">whisper</tspan></text>
+    <text x="195" y="328" text-anchor="middle" fill="#c69bff" font-family="DM Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="1.7">OR</text>
+    <rect x="16" y="352" width="358" height="170" rx="24" fill="#1c0e30" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".17"/>
+    <text x="42" y="424" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="24" font-weight="700"><tspan x="42">Only be able to</tspan><tspan x="42" dy="31">shout</tspan></text>
+    <text x="195" y="560" text-anchor="middle" fill="#fff4ee" fill-opacity=".46" font-family="DM Sans, sans-serif" font-size="12">Everyone picks, then defend your answer.</text>
+    <rect x="16" y="765" width="358" height="56" rx="18" fill="url(#button)"/>
+    <text x="195" y="800" text-anchor="middle" fill="#1a0b1f" font-family="DM Sans, sans-serif" font-size="15" font-weight="700">Next question</text>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+
+  <g id="daily-games" transform="translate(1143 970)">
+    <use xlink:href="#scene"/><rect width="390" height="844" fill="#080610" fill-opacity=".48"/>
+    <use xlink:href="#back"/><text x="76" y="42" fill="#fff4ee" font-family="Bricolage Grotesque, sans-serif" font-size="19" font-weight="700">Daily games</text>
+    <text x="16" y="94" fill="#fff4ee" fill-opacity=".78" font-family="DM Sans, sans-serif" font-size="12.5"><tspan x="16">New puzzle every day. Play together and</tspan><tspan x="16" dy="17">compare scores at the next stop.</tspan></text>
+    <g font-family="DM Sans, sans-serif">
+      <g transform="translate(16 132)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#6aaa64"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">W</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">Wordle</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">Guess the five-letter word in six tries</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 212)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#b49fdc"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">C</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">Connections</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">Sort 16 words into four secret groups</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 292)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#c0ddd9"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">S</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">Strands</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">A themed word search with a twist</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 372)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#6493e6"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">T</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">The Mini</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">A crossword you can finish in a minute</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 452)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#f2c14e"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">T</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">TimeGuessr</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">Guess where and when a photo was taken</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 532)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#7cf0ff"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">W</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">Worldle</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">Name the country from its silhouette</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 612)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#ff9f6b"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">T</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">Travle</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">Cross the map one border at a time</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+      <g transform="translate(16 692)"><rect width="358" height="72" rx="18" fill="#180c2a" fill-opacity=".76" stroke="#ffffff" stroke-opacity=".16"/><rect x="14" y="16" width="40" height="40" rx="12" fill="#ff5fa2"/><text x="34" y="43" text-anchor="middle" fill="#1a0b1f" font-family="Bricolage Grotesque, sans-serif" font-size="18" font-weight="800">F</text><text x="68" y="31" fill="#fff4ee" font-size="15" font-weight="700">Framed</text><text x="68" y="50" fill="#fff4ee" fill-opacity=".66" font-size="10.5">Guess the movie one frame at a time</text><path d="M338 27v-8h8M346 19l-12 12M344 30v9h-9" fill="none" stroke="#fff4ee" stroke-opacity=".6" stroke-width="1.6"/></g>
+    </g>
+    <rect width="390" height="844" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  </g>
+</svg>

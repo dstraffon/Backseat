@@ -110,8 +110,7 @@ button { border: 0; background: none; cursor: pointer; touch-action: manipulatio
 .hero .lede { color: rgba(255, 236, 230, 0.8); }
 
 .tiles {
-  margin-top: auto;          /* pushes tiles to the bottom so the sun shows through */
-  padding-top: 28px;
+  margin-top: 24px;
   display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
 }
 .tile {
@@ -119,7 +118,7 @@ button { border: 0; background: none; cursor: pointer; touch-action: manipulatio
   display: flex; flex-direction: column; gap: 4px;
   min-height: 132px; padding: 16px;
   border-radius: var(--radius-lg);
-  background: var(--glass); border: 1px solid var(--stroke);
+  background: rgba(24, 12, 42, 0.62); border: 1px solid var(--stroke);
   backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
   animation: rise 0.6s var(--ease) both;
   animation-delay: calc(var(--i) * 60ms + 120ms);
